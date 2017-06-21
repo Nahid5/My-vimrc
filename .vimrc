@@ -11,13 +11,23 @@ syntax on
 
 " Make no lines longer than 80 characters
 set textwidth=80
+
+" apply the indentation of the current line to the next line
 set autoindent
+
+" Reacts to the syntax/style of the code for indenting
 set smartindent
 
-" On pressing tab, insert 4 spaces and deletes 4 spaces
+" On pressing tab, insert 4 spaces 
 set tabstop=4
+
+" deletes 4 spaces from tabbing
 set softtabstop=-1
+
+" the number of space characters inserted for indentation
 set shiftwidth=0
+
+" tabs become spaces
 set expandtab
 
 " Brightness
@@ -60,3 +70,9 @@ set undolevels=1000
 
 " global copy and past
 set clipboard=unnamedplus
+
+" automatic fill of paranethsis/bracket
+inoremap { {<CR><BS>}<Esc>ko
+inoremap ( ()<Esc>i
+inoremap [ []<Esc>i
+inoremap < <><Esc>i
