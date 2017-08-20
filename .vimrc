@@ -77,11 +77,19 @@ inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap < <><Esc>i
 
+" fix indention on entire file
+map <F2> mzgg=G`z
+
 " adds options for paste so no tabs are added when pasting
 set pastetoggle=<F3>
 
-" fix indention on entire file
-map <F7> mzgg=G`z
-
 " removes tabs with 4 while space on entire file
 map <F4> :1,$s/\t/    /g
+
+" enable mouse (can click on places in the page)
+map <F5> :set mouse=a
+" set:mouse=    to disable
+
+" split with vsplit (vertical) split (horizontal) vsplit [file], Ctrl-Shift-W to swap
+
+" to comment out multiple lines Ctrl-V, Shift-I, # or //, and Esc
