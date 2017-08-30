@@ -90,6 +90,6 @@ map <F4> :1,$s/\t/    /g
 map <F5> :set mouse=a
 " set:mouse=    to disable
 
-" split with vsplit (vertical) split (horizontal) vsplit [file], Ctrl-Shift-W to swap
+" split with vsplit (vertical) split (horizontal) vsplit [file], Ctrl-W to swap
 
 " to comment out multiple lines Ctrl-V, Shift-I, # or //, and Esc
