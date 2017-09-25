@@ -78,7 +78,7 @@ inoremap [ []<Esc>i
 inoremap < <><Esc>i
 
 " fix indention on entire file
-map <F2> mzgg=G`z
+map <F9> mzgg=G`z
 
 " adds options for paste so no tabs are added when pasting
 set pastetoggle=<F3>
@@ -93,3 +93,6 @@ map <F5> :set mouse=a
 " split with vsplit (vertical) split (horizontal) vsplit [file], Ctrl-W to swap
 
 " to comment out multiple lines Ctrl-V, Shift-I, # or //, and Esc
+
+" Save as sudo
+map <F2> :w !sudo tee %
