@@ -72,10 +72,10 @@ set undolevels=1000
 set clipboard=unnamedplus
 
 " automatic fill of paranethsis/bracket
-inoremap { {<CR><BS>}<Esc>ko
-inoremap ( ()<Esc>i
-inoremap [ []<Esc>i
-inoremap < <><Esc>i
+" inoremap { {<CR><BS>}<Esc>ko
+" inoremap ( ()<Esc>i
+" inoremap [ []<Esc>i
+" inoremap < <><Esc>i
 
 " fix indention on entire file
 map <F9> mzgg=G`z
@@ -95,4 +95,7 @@ map <F5> :set mouse=a
 " to comment out multiple lines Ctrl-V, Shift-I, # or //, and Esc
 
 " Save as sudo
-map <F2> :w !sudo tee %
+map <F1> :w !sudo tee %
+
+" Space to tab
+map <F2> :set noexpandtab
