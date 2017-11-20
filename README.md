@@ -12,7 +12,7 @@ To update plugins use while in vim
 :PluginUpdate
 ```
 
-##lightline.vim
+## lightline.vim
 To get light line plugin to work correctly add this to vimrc
 
 ```
@@ -27,7 +27,7 @@ and to shell
 export TERM=xterm-256color
 ```
 
-##Syntastic
+## Syntastic
 To check a file explicitly with a checker use
 ```
 SyntasticCheck [checker]
@@ -38,4 +38,4 @@ to check file use
 SyntasticCheck
 ```
 
-**Use tidy for HTML
+** Use tidy for HTML
