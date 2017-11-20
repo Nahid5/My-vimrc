@@ -37,6 +37,7 @@ Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy file and buffer finder
 Plugin 'itchyny/lightline.vim' " Colorful status bar
 Plugin 'tomtom/tcomment_vim'    " Syntax-aware plugin for easy commenting
 Plugin 'Valloric/YouCompleteMe' " Auto complete
+Plugin 'airblade/vim-gitgutter' "Shows git icons ( + for line addition, ~ for modification, - for removal
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
