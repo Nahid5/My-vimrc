@@ -32,12 +32,20 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
-Plugin 'sjl/badwolf'    " Colorscheme
+" Plugins
+" Plugin 'sjl/badwolf'    " Colorscheme
+
 Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy file and buffer finder
+" :CtrlP to invoke find file mode
+" :CtrlBuffer or :CtrlPMRU to find buffer in MRU file mode
+" :CtrlPMixed to search in file, Buffers and MRU files at the same time
+
 Plugin 'itchyny/lightline.vim' " Colorful status bar
-Plugin 'tomtom/tcomment_vim'    " Syntax-aware plugin for easy commenting
-Plugin 'Valloric/YouCompleteMe' " Auto complete
-Plugin 'airblade/vim-gitgutter' "Shows git icons ( + for line addition, ~ for modification, - for removal
+" Plugin 'tomtom/tcomment_vim'    " Syntax-aware plugin for easy commenting
+" Plugin 'Valloric/YouCompleteMe' " Auto complete
+" Plugin 'airblade/vim-gitgutter' "Shows git icons ( + for line addition, ~ for modification, - for removal
+Plugin 'scrooloose/syntastic'   " syntax checking
+" Plugin 'nathanaelkane/vim-indent-guides'    " Shows indents
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -55,6 +63,16 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" For Syntastic
+let g:syntastic_python_checkers = ['pylint']
+let g:syntastic_c_checkers = ['cppcheck']
+let g:syntastic_cpp_checkers = ['cppcheck']
+
+" for lightline plugin
+set laststatus=2    
+if !has('gui_running')
+      set t_Co=256
+  endif
 
 " Set 'nocompatible' to ward off unexpected things that your distro might have made, as well as sanely reset options when re-sourcing .vimrc
 " set nocompatible
@@ -63,7 +81,7 @@ filetype plugin indent on    " required
 set number
 
 " Turn on default syntax highliting
-syntax on
+" syntax on
 
 " Make no lines longer than 80 characters
 " set textwidth=80
@@ -94,7 +112,7 @@ set background=dark
 set hidden
 
 " Better command-line completion
-set wildmenu
+" set wildmenu
 
 " Show partial commands n the last line of the sceen
 set showcmd
