@@ -81,7 +81,8 @@ if !has('gui_running')
 set number
 
 " Turn on default syntax highliting
-" syntax on
+syntax on
+colorscheme elflord
 
 " Make no lines longer than 80 characters
 " set textwidth=80
