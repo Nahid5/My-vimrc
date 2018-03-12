@@ -146,6 +146,9 @@ set undolevels=1000
 " global copy and past
 set clipboard=unnamedplus
 
+" Set spell checking
+set spell spelllang=en_us
+
 " automatic fill of paranethsis/bracket
 " inoremap { {<CR><BS>}<Esc>ko
 " inoremap ( ()<Esc>i
