@@ -19,4 +19,4 @@ apt-get install ssh -y
 apt-get install dos2unix -y
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 mv .vimrc ..
-vim a -c 'PluginInstall'
+vim a -c 'PluginInstall' -c 'q' -c 'q'
