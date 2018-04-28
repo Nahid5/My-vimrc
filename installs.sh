@@ -24,4 +24,4 @@ apt-get install code -y
 apt-get install sshpass -y
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ..
-vim a -c 'PluginInstall' -c 'q' -c 'q'
+#vim a -c 'PluginInstall' -c 'q' -c 'q'
