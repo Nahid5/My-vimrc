@@ -22,6 +22,7 @@ apt-get install ssh -y
 apt-get install dos2unix -y
 apt-get install code -y
 apt-get install sshpass -y
+apt-get install tmux -y
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ..
 #vim a -c 'PluginInstall' -c 'q' -c 'q'
