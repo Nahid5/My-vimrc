@@ -18,6 +18,7 @@ apt-get install python3-pip -y
 apt-get install curl -y
 apt-get install openjdk-11-jdk -y
 apt-get install openjdk-11-jre -y
+apt install net-tools -y
 apt-get install ssh -y
 apt-get install dos2unix -y
 apt-get install code -y
