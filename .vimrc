@@ -146,6 +146,9 @@ set undolevels=1000
 " global copy and past
 set clipboard=unnamedplus
 
+" Automatically wrap left and right
+set whichwrap+=<,>,h,l,[,]
+
 " Set spell checking
 " set spell spelllang=en_us
 
