@@ -182,4 +182,4 @@ map <F1> :w !sudo tee %
 map <F2> :set noexpandtab
 
 " Hide tmux statusbar when starting vim in a tmux session
-autocmd VimEnter,VimLeave * silent !tmux set status
+" autocmd VimEnter,VimLeave * silent !tmux set status
