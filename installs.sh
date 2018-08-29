@@ -24,8 +24,7 @@ apt-get install dos2unix -y
 apt-get install code -y
 apt-get install sshpass -y
 apt-get install tmux -y
-apt-get install docker -y
-apt-get install docker-compose
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ..
+# :PluginInstall
 #vim a -c 'PluginInstall' -c 'q' -c 'q'
