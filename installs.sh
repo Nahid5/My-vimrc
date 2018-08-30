@@ -13,6 +13,8 @@ apt-get install vim -y
 apt-get install gcc -y
 apt-get install gdb -y
 apt-get install git -y
+apt-get install python -y
+apt-get install python-pip -y
 apt-get install python3 -y
 apt-get install python3-pip -y
 apt-get install curl -y
