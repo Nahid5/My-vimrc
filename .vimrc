@@ -64,9 +64,9 @@ filetype plugin indent on    " required
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " For Syntastic
-let g:syntastic_python_checkers = ['pylint']
-let g:syntastic_c_checkers = ['cppcheck']
-let g:syntastic_cpp_checkers = ['cppcheck']
+" let g:syntastic_python_checkers = ['pylint']
+" let g:syntastic_c_checkers = ['cppcheck']
+" let g:syntastic_cpp_checkers = ['cppcheck']
 
 " for lightline plugin
 set laststatus=2    
