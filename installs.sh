@@ -23,6 +23,12 @@ apt-get install ssh -y
 apt-get install dos2unix -y
 apt-get install code -y
 apt-get install sshpass -y
+#Install powerline for bash
+apt-get install fonts-powerline
+pip install powerline-shell
+cat bash.config >> ~/.bashrc
+
+#Install custom tmux settings
 apt-get install tmux -y
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ..
