@@ -23,8 +23,9 @@ apt-get install ssh -y
 apt-get install dos2unix -y
 apt-get install code -y
 apt-get install sshpass -y
+apt-get install terminator -y
 #Install powerline for bash
-apt-get install fonts-powerline
+apt-get install fonts-powerline -y
 pip install powerline-shell
 cat bash.config >> ~/.bashrc
 
