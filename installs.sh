@@ -31,7 +31,7 @@ cat bash.config >> ~/.bashrc
 
 #Vim settings
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-cp .vimrc ..
+cp .vimrc ~/.vimrc
 
 #Install custom tmux settings
 echo "export TERM=xterm-256color" >> ~/.profile
