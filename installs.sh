@@ -23,7 +23,7 @@ sudo apt-get install tmux -y
 #Install powerline for bash
 sudo apt-get install powerline
 sudo apt-get install fonts-powerline -y
-pip install powerline-status
+pip3 install powerline-status
 # After do the things in bashrc config
 
 #Vim settings
