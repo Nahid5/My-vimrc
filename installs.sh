@@ -1,12 +1,8 @@
 #!/usr/bin/env bash
 
-# Repo for vs code
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-
 sudo apt-get update
 sudo apt-get upgrade -y
+sudo apt-get install apt-transport-https -y
 sudo apt-get install vim -y
 sudo apt-get install gcc -y
 sudo apt-get install gdb -y
@@ -25,9 +21,10 @@ sudo apt-get install code -y     #Install vs code
 sudo apt-get install sshpass -y
 sudo apt-get install tmux -y
 #Install powerline for bash
+sudo apt-get install powerline
 sudo apt-get install fonts-powerline -y
-pip install powerline-shell
-cat bash.config >> ~/.bashrc
+pip install powerline-status
+# After do the things in bashrc config
 
 #Vim settings
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
