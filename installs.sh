@@ -21,7 +21,7 @@ sudo apt-get install code -y     #Install vs code
 sudo apt-get install sshpass -y
 sudo apt-get install tmux -y
 #Install powerline for bash
-sudo apt-get install powerline
+sudo apt-get install powerline -y
 sudo apt-get install fonts-powerline -y
 pip3 install powerline-status
 # After do the things in bashrc config
