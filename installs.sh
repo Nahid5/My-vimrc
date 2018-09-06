@@ -2,6 +2,7 @@
 
 sudo apt-get update
 sudo apt-get upgrade -y
+sudo apt-get install -y build-essential
 sudo apt-get install apt-transport-https -y
 sudo apt-get install vim -y
 sudo apt-get install gcc -y
