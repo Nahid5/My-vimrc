@@ -27,9 +27,6 @@ sudo apt-get install fonts-powerline -y
 pip3 install powerline-status
 # After do the things in bashrc config
 
-#Move update of repo to opt
-cp update_git_repos.sh /opt/
-
 #Vim settings
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ~/.vimrc
