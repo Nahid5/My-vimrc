@@ -13,33 +13,15 @@ sudo apt-get install python-pip -y
 sudo apt-get install python3 -y
 sudo apt-get install python3-pip -y
 sudo apt-get install curl -y
-sudo apt-get install openjdk-11-jdk -y
-sudo apt-get install openjdk-11-jre -y
 sudo apt install net-tools -y
 sudo apt-get install ssh -y
 sudo apt-get install dos2unix -y
-sudo apt-get install code -y     #Install vs code
 sudo apt-get install sshpass -y
 sudo apt-get install tmux -y
-#Install powerline for bash
-sudo apt-get install powerline -y
-sudo apt-get install fonts-powerline -y
-pip3 install powerline-status
-# After do the things in bashrc config
 
 #Vim settings
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ~/.vimrc
 
-#Install custom tmux settings
-echo "export TERM=xterm-256color" >> ~/.profile
-cd
-git clone https://github.com/gpakosz/.tmux.git
-ln -s -f .tmux/.tmux.conf
-cp .tmux/.tmux.conf.local .
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-sudo apt-get install nodejs -y
-pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U
-pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
 # :PluginInstall
 #vim a -c 'PluginInstall' -c 'q' -c 'q'
