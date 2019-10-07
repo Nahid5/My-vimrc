@@ -25,3 +25,9 @@ cp .vimrc ~/.vimrc
 
 # :PluginInstall
 #vim a -c 'PluginInstall' -c 'q' -c 'q'
+
+#For virtualbox
+#sudo apt-get install virtualbox-guest-utils virtualbox-guest-x11 virtualbox-guest-dkms
+
+#For vmware
+#sudo apt-get install open-vm-tools
