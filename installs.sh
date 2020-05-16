@@ -8,8 +8,6 @@ sudo apt-get install vim -y
 sudo apt-get install gcc -y
 sudo apt-get install gdb -y
 sudo apt-get install git -y
-sudo apt-get install python -y
-sudo apt-get install python-pip -y
 sudo apt-get install python3 -y
 sudo apt-get install python3-pip -y
 sudo apt-get install curl -y
