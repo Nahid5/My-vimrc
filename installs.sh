@@ -17,6 +17,7 @@ sudo apt-get install dos2unix -y
 sudo apt-get install sshpass -y
 sudo apt-get install tmux -y
 sudo apt-get install virtualenv -y
+sudo apt-get install cmake -y
 
 #Vim settings
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
