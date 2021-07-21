@@ -23,6 +23,14 @@ sudo apt-get install cmake -y
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ~/.vimrc
 
+#Export paths for python
+usr_dir="$(eval echo ~$USER)" # Get the current user's home directory
+py_path="export PATH=$usr_dir/.local/bin:\$PATH"
+go_path="export PATH=/usr/local/go/bin:\$PATH"
+echo "$py_path" >> "$usr_dir/.bashrc"
+#Export paths for go
+echo "$go_path" >> "$usr_dir/.bashrc"
+
 # :PluginInstall
 #vim a -c 'PluginInstall' -c 'q' -c 'q'
 
