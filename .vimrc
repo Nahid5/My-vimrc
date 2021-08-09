@@ -183,3 +183,13 @@ map <F2> :set noexpandtab
 
 " Hide tmux statusbar when starting vim in a tmux session
 " autocmd VimEnter,VimLeave * silent !tmux set status
+
+" Fix auto-indentation for YAML files
+augroup filetype_yaml
+    autocmd!
+    autocmd BufNewFile,BufReadPost *.{yaml,yml} set filetype=yaml foldmethod=indent
+    autocmd FileType yaml |
+        setlocal shiftwidth=2 |
+        setlocal softtabstop=2 |
+        setlocal tabstop=2
+augroup END
