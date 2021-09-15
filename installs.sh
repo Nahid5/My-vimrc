@@ -10,6 +10,7 @@ sudo apt-get install gdb -y
 sudo apt-get install git -y
 sudo apt-get install python3 -y
 sudo apt-get install python3-pip -y
+sudo apt-get install python3-venv -y
 sudo apt-get install curl -y
 sudo apt install net-tools -y
 sudo apt-get install ssh -y
