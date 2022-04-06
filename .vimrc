@@ -18,11 +18,11 @@ Plugin 'VundleVim/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-" Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
-" Plugin 'git://git.wincent.com/command-t.git'
+Plugin 'wincent/command-t' " Command-T is a Vim plug-in that provides an extremely fast "fuzzy" mechanism
 " git repos on your local machine (i.e. when working on your own plugin)
 " Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
@@ -42,9 +42,9 @@ Plugin 'ctrlpvim/ctrlp.vim' " Fuzzy file and buffer finder
 
 Plugin 'itchyny/lightline.vim' " Colorful status bar
 " Plugin 'tomtom/tcomment_vim'    " Syntax-aware plugin for easy commenting
-" Plugin 'Valloric/YouCompleteMe' " Auto complete
-" Plugin 'airblade/vim-gitgutter' "Shows git icons ( + for line addition, ~ for modification, - for removal
-" Plugin 'scrooloose/syntastic'   " syntax checking
+Plugin 'Valloric/YouCompleteMe' " Auto complete
+Plugin 'airblade/vim-gitgutter' "Shows git icons ( + for line addition, ~ for modification, - for removal
+Plugin 'scrooloose/syntastic'   " syntax checking
 " Plugin 'nathanaelkane/vim-indent-guides'    " Shows indents
 
 " All of your Plugins must be added before the following line
