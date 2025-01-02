@@ -17,6 +17,8 @@ sudo apt-get install ssh -y
 sudo apt-get install dos2unix -y
 sudo apt-get install sshpass -y
 sudo apt-get install tmux -y
+sudo apt-get install cifs-utils -y
+sudo apt-get install psmisc -y
 sudo apt-get install virtualenv -y
 sudo apt-get install cmake -y
 
